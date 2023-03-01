@@ -1,0 +1,69 @@
+/* Modal Box Styling */
+.QuestionBox {
+  background-color: rgb(109, 109, 255);
+  margin: auto;
+  width: 50%;
+  height: 60%;
+  border-radius: 10px;
+  padding: 20px;
+}
+/* Question Stylings */
+.current-question {
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  width: fit-content;
+}
+
+.question {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 8px 20px;
+  width: fit-content;
+}
+
+/* Options and Button Stylings */
+.all-options,
+.highlight {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  height: fit-content;
+  font-size: 16px;
+  font-weight: 800;
+  border: 2.5px solid white;
+  margin-right: 5px;
+  margin-bottom: 12px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.options-button {
+  width: 50%;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+}
+
+.highlight button {
+  width: 25%;
+  background-color: #fa4040;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  color: white;
+}
+
+/* Question Highlight */
+.highlighted {
+  color: #fa4040;
+}

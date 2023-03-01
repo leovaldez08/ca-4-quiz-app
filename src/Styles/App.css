@@ -1,0 +1,44 @@
+/* General Stylings */
+.App {
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+/* Nav-Bar Stylings */
+nav {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* Stylings for Dark and Light Mode Toggling */
+.mode {
+  height: fit-content;
+  padding: 8px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: 3px solid rgb(255, 0, 0);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dark {
+  background-color: #333;
+  color: #ffff;
+}
+
+.light {
+  background-color: #fff;
+  color: #333;
+}
